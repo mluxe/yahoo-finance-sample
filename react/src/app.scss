@@ -1,0 +1,59 @@
+// @import "~bootstrap/scss/bootstrap";
+
+.app {
+  text-align: left;
+}
+
+.app-body {
+  //color: #282c34;
+  min-height: 100vh;
+  position: relative;
+  // font-size: calc(10px + 2vmin);
+  // color: white;
+  padding: 1rem;
+}
+
+.display-5 {
+  font-size: 2rem;
+}
+
+.table-black-color {
+  tr {
+    > td {
+      color: #515960;
+    }
+  }
+}
+
+.subheader-title {
+  color: #fff;
+}
+
+.chart-container,
+.chart-block {
+  padding: 0.5rem;
+  border: 1px solid #cecece;
+  background-color: #fff;
+}
+
+.react-datepicker {
+  //width: 220px;
+}
+
+
+.hover-visible{
+  display: none;
+  &:hover{
+    display: block;
+  }
+}
+
+.hover-hidden{
+  &:hover{
+    display: none;
+  }
+}
+
+i.fa-btn {
+  cursor: pointer;
+}
